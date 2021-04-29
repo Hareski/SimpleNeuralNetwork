@@ -1,5 +1,10 @@
 # Backpropagation
 
+### Visualisation
+The visualisations of the learning by our algorithm of AND and OR :
+* **OR** : https://simple-neural-network.vercel.app/?path=OU
+* **AND** : https://simple-neural-network.vercel.app/?path=ET
+
 ### Installation/Setup
 
 
@@ -21,11 +26,11 @@ $ ./launcher --help
 ```
  Pour voir toutes les options/See all of the options.
  
-### Lancer un serveur pour les visualisations/Visualisation on a local webserver
+### Visualisation on a local webserver
 ```sh
 $ python -m SimpleHTTPServer
 ```
-##### pour voir le perceptron suivez le chemin suivant/To visualize the perceptron go to the following link
+##### To visualize the perceptron
  - ET logique/logical AND
 ```sh
 http://localhost:8000/javascript/?path=ET
@@ -34,7 +39,7 @@ http://localhost:8000/javascript/?path=ET
 ```sh
 http://localhost:8000/javascript/?path=OU
 ```
-##### Pour voir le réseau allez sur le chemin suivant/To visualize all of the neural network go to the following link
+##### /To visualize all of the neural network go to the following link
 ```sh
 http://localhost:8000/javascript_network/
 ```
